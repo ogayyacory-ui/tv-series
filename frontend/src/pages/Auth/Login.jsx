@@ -73,7 +73,7 @@ function Login() {
         </p>
 
         <h2>
-          Take your seat.
+          Resume your feature.
         </h2>
 
         {error && (
