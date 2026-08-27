@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+main {
+  margin-left: 140px;
+  min-height: 100vh;
+}
+
+@media (max-width: 720px) {
+  main { margin-left: 0; }
+}
