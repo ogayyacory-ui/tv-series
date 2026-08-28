@@ -73,6 +73,7 @@ def create():
         club_id=club_id,
         movie_title=fields["movie_title"],
         description=fields["description"],
+        tmdb_id=fields["tmdb_id"],
     )
 
     db.session.add(post)
